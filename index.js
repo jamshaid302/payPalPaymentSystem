@@ -8,8 +8,8 @@ app.set('view engine', 'ejs');
 // configure paypal with the credentials you got when you created your paypal app
 paypal.configure({
     'mode': 'sandbox', //sandbox or live
-    'client_id': 'ARDIthl6sA0x8CYoMZa8KOP8b9-zsntL02htM-WErYRIeWzJruuk2mQG868aeGDM4oHvbrECHNgSYJR8', // please provide your client id here
-    'client_secret': 'EKzeWHAAkIQdmhxxUenqS703r-H8yRo5i_X9tHtBkQRJdWcWyOT7DF-efuQlqFeggMsNohu3riJRpJk2' // provide your client secret here
+    'client_id': 'YOUR CLIENT ID', // please provide your client id here
+    'client_secret': 'CLIENT SECRET ID' // provide your client secret here
 });
 
 
